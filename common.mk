@@ -15,9 +15,8 @@
 #
 
 LOCAL_PATH := device/samsung/t0lte
-
 TARGET_KERNEL_CUSTOM_RAMDISK := true
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/t0lte/shbootimg.mk
+RAMDISK_HACK := true
 
 # Overlay
 ifeq ($(TARGET_VOICE_TECH), cdma)
